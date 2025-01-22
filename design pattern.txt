@@ -1,0 +1,17 @@
+Car Rental System
+
+1. Singleton Pattern 
+Singleton pattern ensures that a class has only one instance, providing a global point of access to it.
+maintains the list of available cars, customers, and rental transactions.
+
+2. Factory Method Pattern 
+The Factory Method pattern is used to create objects 
+ to create different types of cars based on the needs of the customer (e.g., economy cars, luxury cars, electric cars).
+
+3. Observer Pattern (Behavioral) 
+notifies multiple objects (the observers) about changes in its state.
+to notify customers when a car becomes available or when a new rental transaction occurs.
+
+4. Decorator Pattern (Structural)
+allows you to add additional functionality to an object
+this could be used to add extra features (such as GPS, child seat, insurance) to a car dynamically.
